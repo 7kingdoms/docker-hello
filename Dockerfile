@@ -11,7 +11,7 @@ RUN rm -rf /etc/service/sshd /etc/my_init.d/00_regen_ssh_host_keys.sh
 
 # Install rails dependencies
 RUN apt-get update
-RUN apt-get install sqlite3 libsqlite3-dev
+RUN apt-get install -y sqlite3 libsqlite3-dev
 
 # Copy in app and config files
 ADD rails-env.conf /etc/nginx/main.d/rails-env.conf
