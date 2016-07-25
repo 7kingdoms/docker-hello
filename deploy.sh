@@ -6,8 +6,7 @@ EB_BUCKET=elasticbeanstalk-us-west-2-489284558735
 # Deploy image to Docker Hub
 #docker push circleci/hello:$SHA1
 #docker push 7kingdoms/hello:$SHA1
-docker push 7kingdoms/hello
-#docker push gitranger/hello:$SHA1
+docker push gitranger/hello
 
 ## Create new Elastic Beanstalk version
 #DOCKERRUN_FILE=$SHA1-Dockerrun.aws.json
