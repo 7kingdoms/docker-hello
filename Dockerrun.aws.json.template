@@ -1,11 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Authentication": {
-    "Bucket": "bellkev-shared",
-    "Key": "dockercfg"
-  },
   "Image": {
-    "Name": "circleci/hello:<TAG>",
+    "Name": "7kingdoms/hello:<TAG>",
     "Update": "true"
   },
   "Ports": [
